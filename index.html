@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Khanna - Web Developer</title>
+  <link rel="stylesheet" href="./tailwind.css">
+</head>
+
+<body>
+  <div class="overflow-x-hidden h-max">
+
+    <nav class="w-full flex-center pt-6 bg-black">
+      <a class="font-bold sm:text-base text-sm hover:text-indigo-500 transition-all text-white" href="#about-me">About
+        Me</a>
+      <a class="mx-6 font-bold sm:text-base text-sm hover:text-indigo-500 transition-all text-white"
+        href="#works">Works</a>
+      <a class="font-bold sm:text-base text-sm hover:text-indigo-500 transition-all text-white"
+        href="#skills">Skills</a>
+    </nav>
+
+    <section class="flex sm:flex-row flex-col sm:h-screen text-white">
+
+      <div class="w-full bg-black">
+        <div class="mt-24 sm:mt-32 ml-4 sm:ml-10">
+          <h1 class="font-bold text-3xl sm:text-5xl mb-4">Hi,</h1>
+          <h1 class="text-xl sm:text-3xl">My name is</h1>
+          <h1 class="font-black text-7xl sm:text-8xl mt-4">AMAN <span class="text-indigo-500">KHANNA</span></h1>
+
+          <p class="text-gray-300 mt-8 underline sm:text-lg">A Full Stack Web Developer</p>
+
+          <button
+            class="bg-indigo-500 w-64 h-12 font-bold mt-12 rounded-full hover:bg-transparent hover:text-indigo-500 hover:border hover:border-indigo-500 transition-all">
+            Know More
+          </button>
+        </div>
+      </div>
+
+      <!-- threejs -->
+      <div class="w-full sm:w-1/3 bg-black">
+        <canvas class="w-full h-screen" id="bg"></canvas>
+      </div>
+
+    </section>
+
+    <section class="w-full py-6 flex-center">
+      <a target="_blank" href="https://wa.me/+919818267849">
+        <div
+          class="w-14 h-14 hover:scale-105 transition-all sm:w-20 sm:h-20 rounded-full shadow-xl bg-indigo-100 flex-center">
+          <img class="w-12 sm:w-16" src="/images/whatsapp.png" alt="github">
+        </div>
+      </a>
+      <a target="_blank" href="https://github.com/amanweb09" class="mx-8 sm:mx-12">
+        <div
+          class="w-20 h-20 border-2 border-solid border-indigo-500 hover:scale-105 transition-all sm:w-28 sm:h-28  rounded-full shadow-xl bg-indigo-100 flex-center">
+          <img class="w-12 sm:w-16" src="/images/github.png" alt="github">
+        </div>
+      </a>
+      <a target="_blank" href="mailto:amankhanna224466@gmail.com">
+        <div
+          class="w-14 h-14 hover:scale-105 transition-all  sm:w-20 sm:h-20 rounded-full shadow-xl bg-indigo-100 flex-center">
+          <img class="w-12 sm:w-16" src="/images/mail.png" alt="github">
+        </div>
+      </a>
+    </section>
+
+    <section id="about-me" class="mt-8 pb-6">
+      <!-- <h1 class="text-xl ml-6 mb-8 font-bold">About Me</h1> -->
+      <div class="flex sm:flex-row sm:items-start items-center flex-col px-6">
+        <img class="sm:w-80 w-64" src="/images/photo.jpg" alt="photo">
+
+        <p class="sm:px-10 sm:mt-0 mt-6 text-gray-600 font-semibold">
+          Hi,
+          <br>
+          my name is Aman Khanna, a self-taught
+          <span class="text-lg font-bold text-indigo-700">full-stack web developer</span>,
+          who has worked on more than 30 projects and has got hands on experience in working with
+          technologies like React.js, Node.js, Next.js, MongoDB, and many more. I've been coding for
+          over 2 years, in which i have developed a decent approach to problem-solving and
+          logic building and has learnt several new technologies and libraries.
+          <br>
+          <br>
+          I'm looking for opportunities to work with prestigious institutions and companies
+          to become a helping hand to the team and enhance my learnings in the field of web
+          development.
+          <br><br>
+          <a class="text-indigo-500 font-bold" 
+          href="mailto:amankhanna224466@gmail.com">
+            Get in touch
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </p>
+
+      </div>
+    </section>
+
+    <section id="skills" class="px-4 sm:px-6 bg-neutral-50 py-4">
+      <h1 class="text-3xl font-bold my-6">SKILLS</h1>
+
+      <div class="font-semibold text-gray-600">
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/html.png" alt="html">
+          <h3 class="">
+            UI Design using Core HTML or Template Engines like EJS and Handlebars
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/tailwind.png" alt="css">
+          <h3 class="">
+            Styling using CSS3 or frameworks like Tailwind CSS and Material UI
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/react.png" alt="react">
+          <h3 class="">
+            Creating clean and reusable react components using advanced react concepts like hooks, redux, context, etc
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/nodejs.png" alt="nodejs">
+          <h3 class="">
+            Creating REST API using Node.js and Express.js
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/mongodb.png" alt="mongodb">
+          <h3 class="">
+            CRUD Operations with MongoDB and Object Data Modeling with Mongoose
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/nextjs.png" alt="nextjs">
+          <h3 class="">
+            Unleashing the power of SSR and SSG with Next.js 13 and TypeScript
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/aws.png" alt="aws">
+          <h3 class="">
+            Deployment using AWS EC2 and Ubuntu
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/figma.png" alt="figma">
+          <h3 class="">
+            Prototyping and Wireframing using Figma
+          </h3>
+        </div>
+        <div class="flex items-center sm:px-4 px-2 py-4 text-sm sm:text-base">
+          <img class="w-12 mr-2" src="/images/docker.png" alt="docker">
+          <h3 class="">
+            Development and Deployment on Docker
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="px-4 sm:px-6">
+      <h1 class="text-2xl sm:text-3xl font-bold my-10">
+        THE <span class="text-indigo-700">PROJECT</span> SHELF
+      </h1>
+
+      <div class="">
+
+        <!-- socialbuxx -->
+        <div class="">
+          <h1 class="font-bold sm:text-xl my-4">
+            Socialbuzz - Social Media Application
+            <a 
+            target="_blank"
+            href="https://socialbuzz-server-production.up.railway.app">
+              <i class="fa-sharp fa-solid fa-arrow-up-right-from-square hover:text-indigo-500"></i>
+            </a>
+          </h1>
+
+          <div class="flex sm:flex-row flex-col">
+            <div class="w-full sm:w-2/5 sm:mt-6">
+              <img class="w-full shadow-md" src="/images/projects/sb-feed.png" alt="project img">
+            </div>
+            <div class="sm:px-8 flex-1">
+              <div class="mt-6">
+                <p class="text-gray-600 font-semibold">
+                  <span class="text-indigo-600 font-bold">Socialbuzz</span> is a MERN stack social media application
+                  that enables
+                  the users the create posts, follow and unfollow people, and like and comment
+                  on their posts. The app comes with a modern and beautiful UI and can be a perfect
+                  social companion. Finally, the app is hosted on Railway.
+                </p>
+              </div>
+              <div class="my-10">
+                <h3 class="font-semibold">Stack Used</h3>
+                <div class="flex items-center mt-2">
+                  <img class="w-12 sm:w-14" src="/images/react.png" alt="react">
+                  <img class="w-12 sm:w-14 mx-6" src="/images/redux.png" alt="react">
+                  <img class="w-12 sm:w-14" src="/images/nodejs.png" alt="nodejs">
+                  <img class="w-12 sm:w-14 ml-6" src="/images/mongodb.png" alt="mongodb">
+                  <img class="w-12 sm:w-14 ml-6" src="/images/tailwind.png" alt="tw">
+                </div>
+              </div>
+              <div class="mt-10">
+                <h3 class="font-bold">Github Link</h3>
+                <a target="_blank" href="https://github.com/amanweb09/socialbuzz-mern">
+                  <img class="w-14" src="/images/github.png" alt="react">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- coursemania -->
+        <div class="mt-12">
+          <h1 class="font-bold sm:text-xl my-4">
+            CourseMania - A Course Streaming App
+            <a target="_blank" href="https://coursemania.up.railway.app">
+              <i class="fa-sharp fa-solid fa-arrow-up-right-from-square hover:text-indigo-500"></i>
+            </a>
+          </h1>
+
+          <div class="flex sm:flex-row flex-col">
+            <div class="w-full sm:w-2/5 mt-6">
+              <img class="w-full shadow-md" src="/images/projects/cm-home.png" alt="project img">
+            </div>
+            <div class="sm:px-8 flex-1">
+              <div class="mt-6">
+                <p class="text-gray-600 font-semibold">
+                  <span class="text-indigo-600 font-bold">CourseMania</span> is a MERN stack course streaming
+                  application that uses
+                  Node.js Streams to stream content from server to client. In addition, it has a full-fledged
+                  authentication system, course enrollment, course details, and a beautiful UI. The app is finally
+                  deployed on railway.
+                </p>
+              </div>
+              <div class="my-10">
+                <h3 class="font-semibold">Stack Used</h3>
+                <div class="flex items-center mt-2">
+                  <img class="w-12 sm:w-14" src="/images/react.png" alt="react">
+                  <img class="w-12 sm:w-14 mx-6" src="/images/redux.png" alt="react">
+                  <img class="w-12 sm:w-14" src="/images/nodejs.png" alt="nodejs">
+                  <img class="w-12 sm:w-14 ml-6" src="/images/mongodb.png" alt="mongodb">
+                  <img class="w-12 sm:w-14 ml-6" src="/images/tailwind.png" alt="tw">
+                </div>
+              </div>
+              <div class="mt-10">
+                <h3 class="font-bold">Github Link</h3>
+                <a target="_blank" href="https://github.com/amanweb09/coursemania-mern">
+                  <img class="w-14" src="/images/github.png" alt="react">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- wc -->
+        <div class="mt-12">
+          <h1 class="font-bold sm:text-xl my-4">
+            Wack Culture - An E-Commerce App
+            <a target="_blank" href="https://wackculture.in">
+              <i class="fa-sharp fa-solid fa-arrow-up-right-from-square hover:text-indigo-500"></i>
+            </a>
+          </h1>
+
+          <div class="flex sm:flex-row flex-col">
+            <div class="w-full sm:w-2/5 mt-6">
+              <img class="w-full shadow-md" 
+              src="/images/projects/wc-products.png" 
+              alt="project img">
+            </div>
+            <div class="sm:px-8 flex-1">
+              <div class="mt-6">
+                <p class="text-gray-600 font-semibold">
+                  <span class="text-indigo-600 font-bold">Wack Culture</span>
+                  is a MERN-stack e-commerce application that has every ecommerce
+                  functionality needed. It comes with authentication, product creation and fetching,
+                  order, payment gateway, order tracking, and what not? It uses websockets for order status
+                  updation, cloudinary as cloud asset storage, and Redux for state management. The app is
+                  deployed on AWS EC2.
+                </p>
+              </div>
+              <div class="my-10">
+                <h3 class="font-semibold">Stack Used</h3>
+                <div class="flex items-center mt-2">
+                  <img class="w-14" src="/images/react.png" alt="react">
+                  <img class="w-14 mx-6" src="/images/redux.png" alt="react">
+                  <img class="w-14" src="/images/nodejs.png" alt="nodejs">
+                  <img class="w-14 mx-6" src="/images/mongodb.png" alt="mongodb">
+                  <img class="w-14" src="/images/tailwind.png" alt="tw">
+                  <img class="w-14 ml-6" src="/images/aws.png" alt="tw">
+                </div>
+              </div>
+              <div class="mt-10">
+                <h3 class="font-bold">Github Link</h3>
+                <a target="_blank" href="https://github.com/amanweb09/wack-culture">
+                  <img class="w-14" src="/images/github.png" alt="react">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- App 1 -->
+        <div class="mt-12">
+          <h1 class="font-bold sm:text-xl my-4">
+            Vercel Blogs - a Blog Website
+            <a target="_blank" href="https://vercel-blogs-ts-fuud.vercel.app">
+              <i class="fa-sharp fa-solid fa-arrow-up-right-from-square hover:text-indigo-500"></i>
+            </a>
+          </h1>
+
+          <div class="flex sm:flex-row flex-col">
+            <div class="w-full sm:w-2/5">
+              <img 
+              class="w-full shadow-md" 
+              src="/images/projects/vercel-home.png" 
+              alt="project img">
+            </div>
+            <div class="sm:px-8 flex-1">
+              <div class="mt-6">
+                <p class="text-gray-600 font-semibold">
+                  <span class="text-indigo-600 font-bold">Vercel Blogs</span> is a Next.js blogging project which is
+                  written
+                  using TypeScript. It uses server-side rendering to fetch blogs from the API. Finally, it is hosted
+                  on vercel.
+                </p>
+              </div>
+              <div class="my-10">
+                <h3 class="font-semibold">Stack Used</h3>
+                <div class="flex items-center mt-2">
+                  <img class="w-14" src="/images/nextjs.png" alt="react">
+                  <img class="w-14 ml-6" src="/images/tailwind.png" alt="tw">
+                </div>
+              </div>
+              <div class="mt-10">
+                <h3 class="font-bold">Github Link</h3>
+                <a target="_blank" href="https://github.com/amanweb09/vercel-blogs-ts">
+                  <img class="w-14" src="/images/github.png" alt="react">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- tbc -->
+        <div class="mt-12">
+          <h1 class="font-bold sm:text-xl my-4">
+            The Basic Co. - An E-Commerce Website
+            <a target="_blank" href="http://35.89.167.217">
+              <i class="fa-sharp fa-solid fa-arrow-up-right-from-square hover:text-indigo-500"></i>
+            </a>
+          </h1>
+
+          <div class="flex sm:flex-row flex-col">
+            <div class="w-full sm:w-2/5">
+              <img 
+              class="w-full shadow-md" 
+              src="/images/projects/tbc-promo.png" 
+              alt="project img">
+            </div>
+            <div class="sm:px-8 flex-1">
+              <div class="mt-6">
+                <p class="text-gray-600 font-semibold">
+                  <span class="text-indigo-600 font-bold">The Basic Co.</span> is an e-commerce website, which has
+                  everything
+                  you need in an e-commerce website. It uses template engine to generate
+                  HTML pages and tailwind css for styling. Finally, it is hosted
+                  on Amazon Web Services EC2.
+                </p>
+              </div>
+              <div class="my-10">
+                <h3 class="font-semibold">Stack Used</h3>
+                <div class="flex items-center mt-2">
+                  <img class="w-14" src="/images/ejs.png" alt="ejs">
+                  <img class="w-14 mx-6" src="/images/nodejs.png" alt="node">
+                  <img class="w-14" src="/images/mongodb.png" alt="node">
+                  <img class="w-14 ml-6" src="/images/tailwind.png" alt="tw">
+                  <img class="w-14 ml-6" src="/images/aws.png" alt="tw">
+                </div>
+              </div>
+              <div class="mt-10">
+                <h3 class="font-bold">Github Link</h3>
+                <a target="_blank" href="https://github.com/amanweb09/the-basic-co-e-commerce-">
+                  <img class="w-14" src="/images/github.png" alt="react">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- uber -->
+        <div class="mt-12">
+          <h1 class="font-bold sm:text-xl my-4">
+            Uber (Rebuild)
+            <a href="">
+              <i class="fa-sharp fa-solid fa-arrow-up-right-from-square hover:text-indigo-500"></i>
+            </a>
+          </h1>
+
+          <div class="flex sm:flex-row flex-col">
+            <div class="w-1/2 block sm:mx-0 mx-auto sm:w-1/4">
+              <video 
+              autoplay=""
+              muted=""
+              src="/videos/uber.mp4"
+              class="h-96 shadow-md">
+              </video>
+            </div>
+            <div class="sm:px-8 flex-1">
+              <div class="mt-6">
+                <p class="text-gray-600 font-semibold">
+                  <span class="text-indigo-600 font-bold">Uber rebuild</span>
+                  is a rebuilt of cab booking service Uber and is built on React Native.
+                  It uses Google APIs like Google Distance API, Maps API, and
+                  Distance Matrix API. It uses Tailwind CSS for styling and expo CLI for
+                  development.
+                </p>
+              </div>
+              <div class="my-10">
+                <h3 class="font-semibold">Stack Used</h3>
+                <div class="flex items-center mt-2">
+                  <img class="w-14" src="/images/react.png" alt="ejs">
+                  <img class="w-14 mx-6" src="/images/tailwind.png" alt="tw">
+                  <img class="w-14" src="/images/gcloud.png" alt="tw">
+                </div>
+              </div>
+              <div class="mt-10">
+                <h3 class="font-bold">Github Link</h3>
+                <a target="_blank" href="https://github.com/amanweb09/uber-rebuild">
+                  <img class="w-14" src="/images/github.png" alt="react">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <h1 class="font-bold text-2xl sm:text-3xl text-gray-500 mt-8 text-center">AND MANY MORE...</h1>
+    </section>
+
+    <footer class="mt-8 bg-indigo-100 w-full py-2 text-center sm:text-base text-sm">
+      <span class="flex-center">Made with 
+        <img 
+        class="mx-1 w-4 sm:w-6"
+        src="/images/heart.png" 
+        alt="heart">
+         using html, css, javascript, and vite
+      </span>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+  <script src="https://kit.fontawesome.com/aa4f68b0a1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

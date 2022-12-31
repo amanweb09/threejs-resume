@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
